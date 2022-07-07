@@ -1,0 +1,9 @@
+azure-functions
+onnxruntime
+numpy
+Pillow
+onnx
+matplotlib
+opencv-python-headless
+torchvision
+line-profiler

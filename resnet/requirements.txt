@@ -1,0 +1,7 @@
+azure-functions
+onnxruntime
+numpy
+Pillow
+onnx
+opencv-python-headless
+line-profiler

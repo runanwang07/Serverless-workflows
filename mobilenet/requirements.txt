@@ -1,0 +1,6 @@
+azure-functions
+onnxruntime
+numpy
+Pillow
+onnx
+line-profiler
