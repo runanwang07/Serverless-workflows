@@ -1,7 +1,7 @@
 # Code-level Performance Model Generation
 This repository provides the source code of the serverless workflows evaluated for the fine-grained performance modeling of serverless functions.
 ## Organization of the repository
-- individual serverless functions: several individual serverless functions with the functionalities of pre-processing images and classification. The tensorflow-based method is derived from [Azure Function with Machine Learning](https://docs.microsoft.com/en-us/azure/azure-functions/functions-machine-learning-tensorflow?tabs=bash), which is redistributed under the MIT License with the permitted distribution. Another four image classification functions are developed with the pre-trained models from [Onnx Model Zoo](https://github.com/onnx/models) under Apache License v2.0.
+- individual serverless functions: several individual serverless functions with the functionalities of pre-processing images and classification. The tensorflow-based method is derived from [Azure Function with Machine Learning](https://docs.microsoft.com/en-us/azure/azure-functions/functions-machine-learning-tensorflow?tabs=bash), which is redistributed under MIT License. Another four image classification functions are developed with the pre-trained models from [Onnx Model Zoo](https://github.com/onnx/models) under Apache License v2.0.
 
 - orchestration function: source code of the 4 workflow composition patterns used in the experiments.
 All the above serverless functions are developed with Python 3.7 and Azure Function 3.0.
