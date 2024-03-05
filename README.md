@@ -16,5 +16,3 @@ Different compositions of workflows have been defined with 4 orchestrators based
 - wf2: Branching workflow conditional on the user inputs
 - wf3: Parallel execution workflow with 4 image processing models
 - wf4: Complex workflow with branches, parallelism and sequence execution
-
-## License
